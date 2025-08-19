@@ -1,0 +1,10 @@
+Hii this is the first file
+
+to create a file syntax: vi filename
+
+then editor will open then enter "i" to get into insert mode,
+then write your script and enter "esc+:" then enter "wq!" to save and quit from editor.
+
+If you write any scripting file give the file name with the extension of .sh , It is a convention you can give with out .sh extension tooo
+
+Thank you
