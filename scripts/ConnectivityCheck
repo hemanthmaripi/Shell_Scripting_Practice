@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#The ping command in linux is a network utility used to test the reachability of a host on an IP network
+
+
+read -p "Enter the site or IP adders you want to check: " site
+
+ping -c 1 $site
+
+if [ $? -eq 0 ]
+then
+	echo "Connection was successfull"
+else
+	echo "Failed to connect"
+fi
+
+
